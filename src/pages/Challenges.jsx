@@ -1,14 +1,14 @@
 ﻿import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
-export default function About() {
+export default function Challenges() {
   return (
     <Card className="glass">
       <CardHeader>
-        <CardTitle>About Neura</CardTitle>
+        <CardTitle>Challenges</CardTitle>
       </CardHeader>
       <CardContent>
         <p className="text-muted-foreground">
-          Where discipline meets community. Build habits, earn NRN tokens, and grow your neural canvas.
+          Friend challenges and marathons coming soon.
         </p>
       </CardContent>
     </Card>

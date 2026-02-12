@@ -1,11 +1,12 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="manifest" href="/manifest.json" />
-    <title>Base44 APP</title>
+    <!-- ✅ Development CSP – allows everything for localhost -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-eval' 'unsafe-inline'; script-src * 'unsafe-eval' 'unsafe-inline' 'self' https: http:; style-src * 'unsafe-inline' 'self' https: http:; img-src * data: blob: 'self' https: http:; font-src * data: 'self' https: http:; connect-src * ws: wss: 'self' https: http:; frame-src *;">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Neura – Where discipline meets community</title>
   </head>
   <body>
     <div id="root"></div>
