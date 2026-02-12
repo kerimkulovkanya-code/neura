@@ -1,39 +1,31 @@
-**Welcome to your Base44 project** 
+# 🧠 Neura
 
-**About**
+**Where discipline meets community.**
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+Neura is a Web3 habit‑tracking app that turns your daily routines into a living, visual network. Every check‑in grows your personal neural canvas, earns you **NRN tokens**, and unlocks achievements – all while keeping you accountable through streaks and community challenges.
 
-This project contains everything you need to run your app locally.
+---
 
-**Edit the code in your local development environment**
+## ✨ What Makes Neura Different?
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+- 🎨 **Live Neural Canvas** – Your habits become nodes and connections. Watch your discipline bloom in real time.
+- 🪙 **Earn Real Tokens** – Get rewarded with **NRN** (ERC‑20) on Sepolia testnet for every check‑in.
+- 🏆 **Badges & Achievements** – Unlock hidden rewards, toast notifications, and confetti celebrations.
+- 🔥 **Streak Tracking** – Stay consistent. Your streak is front and center, with XP and level progression.
+- 🔌 **Web3 Native** – Connect your wallet, mint tokens, and truly own your progress.
+- 📱 **Mobile Ready** – Fully responsive, with a sleek hamburger menu and adaptive canvas.
 
-**Prerequisites:** 
+---
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+## 🚀 Built With
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+- **React + Vite** – Lightning‑fast frontend
+- **Tailwind CSS + shadcn/ui** – Beautiful, accessible components
+- **Wagmi + Viem** – Seamless Ethereum wallet integration
+- **Solidity + OpenZeppelin** – Secure, audited smart contracts
+- **Canvas API** – Custom neural visualisation
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+---
 
-Run the app: `npm run dev`
-
-**Publish your changes**
-
-Open [Base44.com](http://Base44.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+**Ready to grow your neural map?**  
+Check the [installation guide](#installation) to get started locally, or [deploy your own](#deployment) in minutes.
